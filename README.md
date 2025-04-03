@@ -7,7 +7,10 @@ This Python-based bind shell server allows remote command execution on a target 
 * Customizable Port: Specify the port on which the server listens for incoming connections.
 # Requirements
 * Python 3.x
-* click library (install via pip install click)
+* click library
+  ```
+  pip install click
+  ```
 
 # Usage
   Clone the repository:
