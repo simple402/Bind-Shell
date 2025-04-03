@@ -15,7 +15,7 @@ This Python-based bind shell server allows remote command execution on a target 
 # Usage
   Clone the repository:
   ```
-  git clone https://github.com/yourusername/bind-shell-server.git
+  git clone https://github.com/simple402/Bind-Shell.git
   cd bind-shell-server
   ```
   Run the server on the target:
