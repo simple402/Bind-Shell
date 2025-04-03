@@ -8,3 +8,20 @@ This Python-based bind shell server allows remote command execution on a target 
 # Requirements
 * Python 3.x
 * click library (install via pip install click)
+
+  # Usage
+  Clone the repository:
+  ```
+  git clone https://github.com/yourusername/bind-shell-server.git
+  cd bind-shell-server
+  ```
+  Run the server on the target:
+  ```
+  python bind_shell_server.py --port 4444
+  ```
+  Connect to the server from a client:
+  ```
+  nc <server_ip> 4444 -nv
+  ```
+  # Important Note
+This tool is intended for educational purposes only. Ensure you have permission to test any systems you connect to, and use it responsibly.
